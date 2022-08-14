@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-    background: url('../imagens/fundo\ de\ madeira.jpg') no-repeat top center;
+    background: url('../imagens/fundo.png') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -24,22 +24,23 @@ main {
 
 section#telefone {
     position: absolute;
-    top: 60%;
-    left: 210px;
+    top: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
 
     height: 600px;
     width: 311px;
     background:  url('../imagens/note\ 10.png') no-repeat;
+    background-attachment: fixed;
 }
 
 iframe#tela {
     position: relative;
-    top: 7px;
-    left: 35px;
-    width: 220px;
-    height: 381px;
-    border-radius: 10px;
+    top: 1.4%;
+    left: 36%;
+    width: 177px;
+    height: 380px;
+    border-radius: 7px;
 }
 
 section#rede {
@@ -47,7 +48,7 @@ section#rede {
 }
 
 section#rede img{
-    width: 50px;
+    width: 40px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px black;
